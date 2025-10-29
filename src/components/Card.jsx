@@ -79,28 +79,7 @@ export const ProjectCard = ({
           </span>
         ))}
       </div>
-      {/* <div className="flex space-x-4">
-        {liveUrl && (
-          <a
-            href={liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm"
-          >
-            Live Demo →
-          </a>
-        )}
-        {githubUrl && (
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-600 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 font-medium text-sm"
-          >
-            GitHub →
-          </a>
-        )}
-      </div> */}
+      
     </div>
   </Card>
 )
